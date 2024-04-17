@@ -65,7 +65,7 @@ $ echo 514 > unexport
 
 To make control easier, we will write a Bash script that takes command-line arguments to turn the GPIO on or off.<br>
 ### Script will change `value` file depending on the `argument` it was executed with.
-Let's get back to out home directory and create new folder with script inside.
+Let's get back to out home directory and create new folder with script inside:
 ```bash
 $ mkdir switch && cd switch # MaKeDIRectory and ChangeDirectory into it
 ```
