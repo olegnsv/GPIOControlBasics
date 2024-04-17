@@ -13,7 +13,7 @@ Modern Raspberry Pi OS versions use a block device-like structure for managing G
 > _NOTE_:  _`$`_ the default symbol for a user shell and it means that the command should be executed without root privileges. Same logic applies for _`#`_, the default symbol for a root shell.
 
 ### 1. Navigation to directory and review
-GPIO hardware exposed in the file system under `/sys/class/gpio/` directory. Using `cd`, we can change directories:
+GPIO controller exposed in the file system under `/sys/class/gpio/` directory. Using `cd`, we can change directories:
 ```bash
 $ cd /sys/class/gpio
 ```
