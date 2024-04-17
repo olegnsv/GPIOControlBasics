@@ -123,15 +123,15 @@ Presence of an `x` indicates that now we are allowed to execute this file.
 ### Using the Script
 To turn the GPIO on or off:
 ```bash
-./switch.sh -on
-./switch.sh -off
+$ ./switch.sh -on
+$ ./switch.sh -off
 ```
 If arguments were not specified, script will show "help page".
 
 ### Observing the Results
 To check the current state of the GPIO:
 ```bash
-cat /sys/class/gpio/gpio514/value
+$ cat /sys/class/gpio/gpio514/value
 ```
 In my case, the indicator was an LED on the Teensy board.
 1             |  0
