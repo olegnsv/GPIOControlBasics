@@ -31,7 +31,7 @@ Each `gpiochip` represents a block of GPIOs starting from a base offset. To cont
 ### 3. Exporting a GPIO Pin
 To use a GPIO pin, it first needs to be made available (or "exported") for user-space applications:
 ```bash
-echo 514 > /sys/class/gpio/export
+$ echo 514 > /sys/class/gpio/export
 ```
 ### 4. GPIO File structure
 ```bash
