@@ -110,7 +110,7 @@ total 4
 
 Permission to execute in shown as `x` in `rwx` sequence. We can add this permission using `chmod` :
 ```bash
-chmod +x switch.sh # CHangeMODe
+$ chmod +x switch.sh # CHangeMODe
 ```
 After adding permission, we can check if it was actually assigned to file:
 ```bash
